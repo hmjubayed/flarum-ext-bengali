@@ -3,11 +3,8 @@
     "type": "flarum-extension",
     "description": "Bangla language pack.",
     "homepage": "https://github.com/jubayed/flarum-ext-bengali",
-    "keywords": ["locale"],
+    "keywords": ["locale", "bengali"],
     "license": "MIT",
-    "require": {
-        "flarum/core": "^0.1.0-beta.7"
-    },
     "extra": {
         "flarum-extension": {
             "title": "Bengali",
