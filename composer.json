@@ -1,0 +1,28 @@
+{
+    "name": "jubayed/flarum-ext-bengali",
+    "type": "flarum-extension",
+    "description": "Bangla language pack.",
+    "keywords": ["locale"],
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^0.1.0-beta.7"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        },
+        "flarum-extension": {
+            "title": "Bengali",
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#00247d",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "bn",
+            "title": "Bengali"
+        }
+    }
+}
