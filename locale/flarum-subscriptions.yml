@@ -40,8 +40,8 @@ flarum-subscriptions:
       ignoring_text: কখনোই বিজ্ঞাপিত হবে না আলোচনা তালিকা থেকে লুকান।
       not_following_button: Not Following
       not_following_text: "Be notified only when @mentioned."
-      notify_alert_tooltip: Get a forum notification when there are new posts
-      notify_email_tooltip: Get an email when there are new posts
+      notify_alert_tooltip: নতুন পোস্ট হলে একটি বিজ্ঞপ্তি দেওয়া হোক
+      notify_email_tooltip: নতুন পোস্ট হলে একটি ইমেইল পাঠানো হোক
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
