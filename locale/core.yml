@@ -266,15 +266,15 @@ core:
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
-      activate_button: Activate User
+      activate_button: ব্যবহারকারী সক্রিয় করুন
       email_heading: => core.ref.email
       email_label: => core.ref.email
-      groups_heading: Groups
+      groups_heading: গ্রুপ সমূহ
       password_heading: => core.ref.password
       password_label: => core.ref.password
       set_password_label: Set new password
       submit_button: => core.ref.save_changes
-      title: Edit User
+      title: ব্যবহারকারী সম্পাদনা করুন
       username_heading: => core.ref.username
       username_label: => core.ref.username
 
@@ -305,7 +305,7 @@ core:
       cannot_start_discussion_button: আলোচনা শুরু করতে পারবেন না
       mark_all_as_read_confirmation: "আপনি কি পড়ার মত সব আলোচনাকে চিহ্নিত করতে চান?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
-      refresh_tooltip: Refresh
+      refresh_tooltip: রিফ্রেশ
       start_discussion_button: => core.ref.start_a_discussion
 
     # These translations are used by the sorting control above the discussion list.
@@ -337,7 +337,7 @@ core:
 
     # These translations are used by tooltips displayed for individual posts.
     post:
-      edited_text: Edited
+      edited_text: সম্পাদিত
       edited_tooltip: "{username} edited {ago}"
       number_tooltip: "পোস্ট #{number}"
 
@@ -365,7 +365,7 @@ core:
 
     # These translations are used by the rename discussion modal.
     rename_discussion:
-      title: Rename Discussion
+      title: আলোচনা পুনরায় নামকরণ করুন
       submit_button: => core.ref.rename
 
     # These translations are used by the search results dropdown list.
@@ -391,12 +391,12 @@ core:
     sign_up:
       email_placeholder: => core.ref.email
       dismiss_button: => core.ref.okay
-      log_in_text: "Already have an account? <a>Log In</a>"
+      log_in_text: "ইতিমধ্যে একটি অ্যাকাউন্ট আছে? <a>প্রবেশ করুন</a>"
       password_placeholder: => core.ref.password
       submit_button: => core.ref.sign_up
       title: => core.ref.sign_up
       username_placeholder: => core.ref.username
-      welcome_text: "Welcome, {username}!"
+      welcome_text: "স্বাগত, {username}!"
 
     # These translations are used in the user profile page and profile popup.
     user:
@@ -414,7 +414,7 @@ core:
 
     # These translations are found on the user profile page (admin function).
     user_controls:
-      button: Controls
+      button: নিয়ন্ত্রণ
       delete_button: => core.ref.delete
       delete_confirmation: "আপনি কি এই ব্যবহারকারী মুছে ফেলতে চান? ব্যবহারকারীর সকল পোস্ট মোছা হবে।"
       edit_button: => core.ref.edit
@@ -536,7 +536,7 @@ core:
     change_email: ইমেল পরিবর্তন করুন
     change_password: পাসওয়ার্ড পরিবর্তন করুন
     confirm_password: পাসওয়ার্ড নিশ্চিত করুন
-    confirmation_email_sent: "We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder."
+    confirmation_email_sent: "আমরা  এই  {email}  ঠিকানায় একটি নিশ্চিতকরণ ইমেল পাঠিয়েছি। যদি তা শীঘ্রই আসে না, আপনার স্প্যাম ফোল্ডারটি চেক করুন।"
     delete: মুছুন
     delete_forever: চিরতরে মুছুন
     discussions: আলোচনা
