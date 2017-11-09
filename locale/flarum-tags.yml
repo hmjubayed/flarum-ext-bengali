@@ -61,21 +61,21 @@ flarum-tags:
       choose_secondary_placeholder: "Choose 1 more tag|Choose {count} more tags"
       edit_title: "Edit Tags for {title}"
       submit_button: => core.ref.okay
-      title: Choose Tags for Your Discussion
+      title: আপনার আলোচনা জন্য ট্যাগ নির্বাচন করুন
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      choose_tags_link: Choose Tags
+      choose_tags_link: ট্যাগ নির্বাচন করুন
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      edit_tags_button: Edit Tags
+      edit_tags_button: ট্যাগগুলি সম্পাদনা করুন
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
-      more_link: More...
+      more_link: আরও ...
       tags_link: => flarum-tags.ref.tags
-      untagged_link: Untagged
+      untagged_link: ট্যাগ ব্যবহার করা হয়নি।
 
     # These translations are displayed between posts in the post stream.
     post_stream:
@@ -88,7 +88,7 @@ flarum-tags:
   lib:
 
     # This translation is displayed in place of the name of a tag that's been deleted.
-    deleted_tag_text: Deleted
+    deleted_tag_text: মুছে ফেলা হয়েছে
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -96,6 +96,6 @@ flarum-tags:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    create_tag: Create Tag
-    name: Name
-    tags: Tags
+    create_tag: ট্যাগ তৈরি করুন
+    name: নাম
+    tags: ট্যাগগুলি

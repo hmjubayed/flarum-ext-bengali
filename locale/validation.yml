@@ -71,12 +71,12 @@ validation:
   url: "The :attribute format is invalid."
 
   attributes:
-    username: username
-    password: password
-    email: email
-    title: title
-    content: content
-    name_singular: singular name
-    name_plural: plural name
-    tag_count_primary: number of primary tags
-    tag_count_secondary: number of secondary tags
+    username: ব্যবহারকারীর নাম
+    password: পাসওয়ার্ড
+    email: ইমেইল
+    title: শিরোনাম
+    content: বিষয়বস্তু
+    name_singular: একক নাম
+    name_plural: বহুবচন নাম
+    tag_count_primary: প্রাথমিক ট্যাগ সংখ্যা
+    tag_count_secondary: সেকেন্ডারি ট্যাগ সংখ্যা

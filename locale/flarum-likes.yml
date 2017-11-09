@@ -21,7 +21,7 @@ flarum-likes:
 
     # These translations are displayed beneath individual posts.
     post:
-      like_link: Like
+      like_link: লাইক
       liked_by_self_text: "{users} লাইক করেছে "  # Can be pluralized to agree with the number of users!
       liked_by_text: "{users} likes this.|{users} like this."
       others_link: => core.ref.some_others
@@ -30,8 +30,8 @@ flarum-likes:
 
     # These translations are used by the Users Who Like This modal dialog.
     post_likes:
-      title: Users Who Like This
+      title: যারা লাইক দিয়েছেন 
 
     # These translations are used in the Settings page.
     settings:
-      notify_post_liked_label: Someone likes one of my posts
+      notify_post_liked_label: যারা আমার পোস্টে লাইক দিয়েছে

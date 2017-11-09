@@ -24,7 +24,7 @@ flarum-subscriptions:
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      new_post_text: "{username} posted"
+      new_post_text: "{username} পোস্ট করেছেন"
 
     # These translations are used in the Settings page.
     settings:
@@ -35,9 +35,9 @@ flarum-subscriptions:
     sub_controls:
       follow_button: => flarum-subscriptions.ref.follow
       following_button: => flarum-subscriptions.ref.following
-      following_text: Be notified of all replies.
+      following_text: সমস্ত জবাবের বিজ্ঞপ্তি জানানো হবে
       ignoring_button: => flarum-subscriptions.ref.ignoring
-      ignoring_text: Never be notified. Hide from the discussion list.
+      ignoring_text: কখনোই বিজ্ঞাপিত হবে না আলোচনা তালিকা থেকে লুকান।
       not_following_button: Not Following
       not_following_text: "Be notified only when @mentioned."
       notify_alert_tooltip: Get a forum notification when there are new posts
@@ -49,6 +49,6 @@ flarum-subscriptions:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    follow: Follow
-    following: Following
-    ignoring: Ignoring
+    follow: অনুসরণ
+    following: অনুগামী
+    ignoring: উপেক্ষা
