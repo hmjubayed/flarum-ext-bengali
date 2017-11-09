@@ -489,45 +489,42 @@ core:
 
     # These translations are used in emails sent when users register new accounts.
     activate_account:
-      subject: আপনার নতুন অ্যাকাউন্ট সক্রিয় করুন
+      subject: Activate Your New Account
       body: |
-
-        আসালামুয়ালিকুম {username}!
+        Hey {username}!
 
         Someone (hopefully you!) has signed up to {forum} with this email address.
 
-       যদি আপনি নিবন্ধন করে থাকেন, কেবল নিম্নলিখিত লিঙ্কটি ক্লিক করুন এবং আপনার অ্যাকাউন্ট সক্রিয় করা হবে:
+        If this was you, simply click the following link and your account will be activated:
         {url}
 
-       আপনি যদি সাইন আপ না করেন, তাহলে এই ইমেলটি উপেক্ষা করুন।
+        If you did not sign up, please ignore this email.
 
     # These translations are used in emails sent when users change their email address.
     confirm_email:
-      subject: আপনার নতুন ইমেইল ঠিকানা নিশ্চিত করুন
+      subject: Confirm Your New Email Address
       body: |
-
-        আসালামুয়ালিকুম {username}!
+        Hey {username}!
 
         Someone (hopefully you!) has changed their email address on {forum} to this one.
 
         If this was you, simply click the following link and your email will be confirmed:
         {url}
 
-         যদি আপনি নিবন্ধন করে থাকেন, কেবল নিম্নলিখিত লিঙ্কটি ক্লিক করুন এবং আপনার অ্যাকাউন্ট সক্রিয় করা হবে:
+        If this was not you, please ignore this email.
 
     # These translations are used in emails sent when users ask to reset their passwords.
     reset_password:
       subject: => core.ref.reset_your_password
       body: |
-
-        আসালামুয়ালিকুম {username}!
+        Hey {username}!
 
         Someone (hopefully you!) has submitted a forgotten password request for your account on {forum}.
 
         If this was you, click the following link to reset your password:
         {url}
 
-       আপনি যদি আপনার পাসওয়ার্ড পরিবর্তন করতে না চান, তবে এই ইমেলটি উপেক্ষা করুন এবং কিছুই ঘটবে না
+        If you do not wish to change your password, just ignore this email and nothing will happen.
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
