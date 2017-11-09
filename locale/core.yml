@@ -294,7 +294,7 @@ core:
       back_to_index_tooltip: আলোচনা ফিরে যান
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
-      profile_button: Profile
+      profile_button: প্রোফাইল
       search_placeholder: সমস্ত ফোরাম জুড়ে খুজুন
       settings_button: => core.ref.settings
       sign_up_link: => core.ref.sign_up
