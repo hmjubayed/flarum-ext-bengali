@@ -282,20 +282,20 @@ core:
     forgot_password:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
-      email_sent_message: We've sent you an email containing a link to reset your password. Check your spam folder if you don't receive it within the next minute or two.
-      not_found_message: There is no user registered with that email address.
-      submit_button: Recover Password
-      text: Enter your email address and we will send you a link to reset your password.
-      title: Forgot Password
+      email_sent_message: আমরা আপনার পাসওয়ার্ড পুনরায় সেট করার জন্য একটি লিঙ্ক ইমেল ঠিকানায় পাঠানো হয়েছে। আপনার স্প্যাম ফোল্ডারটি চেক করুন, যদি আপনি তা পরবর্তী দুই মিনিটের মধ্যে না পান।
+      not_found_message: এই ইমেল ঠিকানার দিয়ে এখনো কোনো নিবন্ধন করা হয়নি।
+      submit_button: পাসওয়ার্ড উদ্ধার করুন
+      text: আপনার ইমেল ঠিকানা লিখুন এবং আমরা আপনাকে পাসওয়ার্ড পরিবর্তন করার জন্য একটি লিঙ্ক পাঠানো হবে।
+      title: পাসওয়ার্ড ভুলে গেছেন
 
     # These translations are used in the header and session dropdown menu.
     header:
-      admin_button: Administration
-      back_to_index_tooltip: Back to discussion list
+      admin_button: নিয়ন্ত্রণ কেন্দ্র
+      back_to_index_tooltip: আলোচনা ফিরে যান
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
       profile_button: Profile
-      search_placeholder: Search Forum
+      search_placeholder: সমস্ত ফোরাম জুড়ে খুজুন
       settings_button: => core.ref.settings
       sign_up_link: => core.ref.sign_up
 
@@ -319,7 +319,7 @@ core:
     # These translations are used in the Log In modal dialog.
     log_in:
       forgot_password_link: "পাসওয়ার্ড ভুলে গেছেন?"
-      invalid_login_message: আপনার লগইন সঠিক নয় নয়।
+      invalid_login_message: আপনার লগইন সঠিক নয়।
       password_placeholder: => core.ref.password
       remember_me_label: মনে রাখুন
       sign_up_text: "অ্যাকাউন্ট নেই? <a>নিবন্ধন করুন</a>"
@@ -491,6 +491,7 @@ core:
     activate_account:
       subject: আপনার নতুন অ্যাকাউন্ট সক্রিয় করুন
       body: |
+
         আসালামুয়ালিকুম {username}!
 
         Someone (hopefully you!) has signed up to {forum} with this email address.
@@ -504,6 +505,7 @@ core:
     confirm_email:
       subject: আপনার নতুন ইমেইল ঠিকানা নিশ্চিত করুন
       body: |
+
         আসালামুয়ালিকুম {username}!
 
         Someone (hopefully you!) has changed their email address on {forum} to this one.
@@ -517,6 +519,7 @@ core:
     reset_password:
       subject: => core.ref.reset_your_password
       body: |
+
         আসালামুয়ালিকুম {username}!
 
         Someone (hopefully you!) has submitted a forgotten password request for your account on {forum}.
