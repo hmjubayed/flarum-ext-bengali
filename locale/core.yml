@@ -36,16 +36,16 @@ core:
     # These translations are used in the Basics page.
     basics:
       all_discussions_label: => core.ref.all_discussions
-      default_language_heading: Default Language
-      forum_description_heading: Forum Description
-      forum_description_text: Enter a short sentence or two that describes your community. This will appear in the meta tag and show up in search engines.
-      forum_title_heading: Forum Title
-      home_page_heading: Home Page
+      default_language_heading: নির্ধারিত ভাষা
+      forum_description_heading: ফোরাম বর্ণনা
+      forum_description_text: আপনার সম্প্রদায় বর্ণনা করে একটি বা দুটি সংক্ষিপ্ত বাক্য  লিখুন। এটি মেটা ট্যাগের মধ্যে প্রদর্শিত হবে এবং অনুসন্ধান ইঞ্জিনগুলিতে প্রদর্শিত হবে।
+      forum_title_heading: ফোরাম এর শিরোনাম
+      home_page_heading: প্রচ্ছদ
       home_page_text: "Choose the page which users will first see when they visit your forum. If entering a custom value, use the path relative to the forum root."
-      saved_message: Your changes were saved.
-      show_language_selector_label: Show language selector
+      saved_message: আপনার পরিবর্তনগুলি সংরক্ষণ করা হয়েছে
+      show_language_selector_label: ভাষা নির্বাচক দেখান
       submit_button: => core.ref.save_changes
-      welcome_banner_heading: Welcome Banner
+      welcome_banner_heading: স্বাগতম ব্যানার
       welcome_banner_text: Configure the text that displays in the banner on the All Discussions page. Use this to welcome guests to your forum.
 
     # These translations are used in the Dashboard page.
