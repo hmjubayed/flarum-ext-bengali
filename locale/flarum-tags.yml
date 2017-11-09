@@ -13,52 +13,52 @@ flarum-tags:
 
     # These translations are used in the Edit Tag modal dialog.
     edit_tag:
-      color_label: Color
-      delete_tag_button: Delete Tag
-      delete_tag_confirmation: "Are you sure you want to delete this tag? The tag's discussions will NOT be deleted."
-      description_label: Description
-      hide_label: Hide from All Discussions
+      color_label: রঙ
+      delete_tag_button: ট্যাগ মুছুন
+      delete_tag_confirmation: "আপনি কি এই ট্যাগটিকে মুছে দিতে চান? ট্যাগ এর আলোচনা সমূহ মুছে ফেলা হবে না।"
+      description_label: বিবরণ
+      hide_label: সব আলোচনা থেকে লুকান
       name_label: => flarum-tags.ref.name
       name_placeholder: => flarum-tags.ref.name
-      slug_label: Slug
+      slug_label: স্লুগ
       submit_button: => core.ref.save_changes
       title: => flarum-tags.ref.create_tag
 
     # These translations are used in the navigation bar.
     nav:
       tags_button: => flarum-tags.ref.tags
-      tags_text: Manage the list of tags available to organise discussions with.
+      tags_text: আলোচনা সমূহের সাথে ট্যাগ সমূহের তালিকা পরিচালনা করা হয়। 
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_edit_tags_label: Allow tag editing
-      restrict_by_tag_heading: Restrict by Tag
-      tag_discussions_label: Tag discussions
+      allow_edit_tags_label: ট্যাগ সম্পাদনা করার অনুমতি দিন
+      restrict_by_tag_heading: ট্যাগ দ্বারা সীমাবদ্ধ করুন
+      tag_discussions_label: ট্যাগ আলোচনা
 
     # These translations are used in the Tag Settings modal dialog.
     tag_settings:
       range_separator_text: " to "
-      required_primary_heading: Required Number of Primary Tags
-      required_primary_text: Enter the minimum and maximum number of primary tags that may be applied to a discussion.
-      required_secondary_heading: Required Number of Secondary Tags
-      required_secondary_text: Enter the minimum and maximum number of secondary tags that may be applied to a discussion.
-      title: Tag Settings
+      required_primary_heading: একটি প্রাথমিক ট্যাগ আবশ্যক
+      required_primary_text: আলোচনার জন্য ন্যূনতম এবং সর্বাধিক সংখ্যক প্রাথমিক ট্যাগ লিখুন
+      required_secondary_heading: একটি মাধ্যমিক ট্যাগ আবশ্যক
+      required_secondary_text: আলোচনার জন্য ন্যূনতম এবং সর্বাধিক সংখ্যক সর্বাধিক ট্যাগ লিখুন
+      title: ট্যাগ সেটিংস
 
     # These translations are used in the Tags page.
     tags:
-      about_tags_text: "Tags are used to categorize discussions. Primary tags are like traditional forum categories: they can be arranged in a two-level hierarchy. Secondary tags do not have hierarchy or order, and are useful for micro-categorization."
+      about_tags_text: "আলোচনাগুলি শ্রেণীভুক্ত করার জন্য ট্যাগ ব্যবহার করা হয়।প্রাথমিক ট্যাগগুলি প্রথাগত ফোরাম বিভাগের মতো হয়: তাদের একটি দুই-স্তরীয় অনুক্রমের মধ্যে ব্যবস্থা করা যেতে পারে। মাধ্যমিক ট্যাগগুলি অনুক্রম বা আদেশ নেই এবং উপ-শ্রেণী করনের জন্য উপযোগী।"
       create_tag_button: => flarum-tags.ref.create_tag
-      primary_heading: Primary Tags
-      secondary_heading: Secondary Tags
-      settings_button: Settings
+      primary_heading: প্রাথমিক ট্যাগগুলি
+      secondary_heading: মাধ্যমিক ট্যাগগুলি
+      settings_button: সেটিংস
 
   # Translations in this namespace are used by the forum user interface.
   forum:
 
     # These translations are used by the Choose Tags modal dialog.
     choose_tags:
-      choose_primary_placeholder: "Choose a primary tag|Choose {count} primary tags"
-      choose_secondary_placeholder: "Choose 1 more tag|Choose {count} more tags"
+      choose_primary_placeholder: "একটি প্রাথমিক ট্যাগ চয়ন করুন |নির্বাচন করুন {count} বেশি প্রাথমিক  ট্যাগ"
+      choose_secondary_placeholder: "নির্বাচন করুন ১ টির বেশি ট্যাগ|নির্বাচন করুন {count} বেশি প্রাথমিক  ট্যাগ"
       edit_title: "Edit Tags for {title}"
       submit_button: => core.ref.okay
       title: আপনার আলোচনা জন্য ট্যাগ নির্বাচন করুন
