@@ -258,7 +258,7 @@ core:
 
     # These translations are used in the discussion list.
     discussion_list:
-      empty_text: এখানে কোন আলোচনা নেই দেখে মনে হচ্ছে।
+      empty_text: দেখে মনে হচ্ছে, এখানে কোন আলোচনা নেই।
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: পঠিত হিসেবে চিহ্নিত করুন
       replied_text: "{username} replied {ago}"
