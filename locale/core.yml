@@ -138,22 +138,22 @@ core:
 
     # These translations are used in the modal dialog displayed when loading extensions.
     loading:
-      title: Please Wait...
+      title: অনুগ্রহপূর্বক অপেক্ষা করুন...
 
     # These translations are used in the navigation bar.
     nav:
-      appearance_button: Appearance
+      appearance_button: এপিয়ারেন্স
       appearance_text: "Customize your forum's colors, logos, and other variables."
-      basics_button: Basics
-      basics_text: "Set your forum title, language, and other basic settings."
-      dashboard_button: Dashboard
-      dashboard_text: Your forum at a glance.
+      basics_button: প্রাথমিক
+      basics_text: "আপনার ফোরাম শিরোনাম, ভাষা এবং অন্যান্য মৌলিক সেটিংস সেট করুন"
+      dashboard_button: ড্যাশবোর্ড
+      dashboard_text: আপনার ফোরাম এক নজরে।
       email_button: => core.ref.email
-      email_text: "Configure your forum's email settings."
-      extensions_button: Extensions
-      extensions_text: Add extra functionality to your forum and make it your own.
-      permissions_button: Permissions
-      permissions_text: Configure who can see and do what.
+      email_text: "আপনার ফোরামে ইমেইল সেটিংস কনফিগার করুন।"
+      extensions_button: এক্সটেনশানগুলি
+      extensions_text: আপনার ফোরামে অতিরিক্ত কার্যকারিতা জুড়ুন এবং এটি আপনার নিজস্ব করুন।
+      permissions_button: অনুমতিসমূহ
+      permissions_text: কে দেখতে এবং কনফিগার করতে পারে।
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
@@ -194,8 +194,8 @@ core:
 
     # These translations are used in image upload buttons.
     upload_image:
-      remove_button: Remove
-      upload_button: Choose an Image...
+      remove_button: অপসারণ
+      upload_button: একটি চিত্র চয়ন করুন ...
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -451,8 +451,8 @@ core:
     # These translations are used to punctuate a series of items.
     series:
       glue_text: ", "
-      three_text: "{first}, {second}, and {third}"
-      two_text: "{first} and {second}"
+      three_text: "{first}, {second}, এবং {third}"
+      two_text: "{first} এবং {second}"
 
   # Translations in this namespace are used in views other than Flarum's normal JS client.
   views:
@@ -569,8 +569,8 @@ core:
 
   # Translations in this namespace are used to translate default group names.
   group:
-    admin: অ্যাডমিন
-    admins: Admins
+    admin: প্রশাসক
+    admins: প্রশাসকগণ
     guest: অতিথি
     guests: অতিথিগণ
     member: সদস্য

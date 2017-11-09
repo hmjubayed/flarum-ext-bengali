@@ -9,47 +9,47 @@ flarum-flags:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      flag_posts_label: Flag posts
-      view_flags_label: View flagged posts
+      flag_posts_label: পোস্টগুলি  চিহ্নিত 
+      view_flags_label: চিহ্নিত করা পোস্ট গুলো দেখুন
 
     # These translations are used in the Flags Settings modal dialog.
     settings:
-      guidelines_url_label: Community Guidelines URL
-      title: Flags Settings
+      guidelines_url_label: কমিউনিটি নির্দেশিকা ঠিকানা 
+      title: চিহ্নিত সেটিংস
 
   # Translations in this namespace are used by the forum user interface.
   forum:
 
     # These translations are used by the Flag Post modal dialog.
     flag_post:
-      confirmation_message: Thank you for flagging this post. Our moderators will look into it.
+      confirmation_message: এই পোস্টটি চিহ্নিত করার জন্য আপনাকে ধন্যবাদ। আমাদের মডারেটর এটাকে দেখবে।
       dismiss_button: => core.ref.okay
-      reason_inappropriate_label: Inappropriate
-      reason_inappropriate_text: "This post is offensive, abusive, or violates our <a>community guidelines</a>."
-      reason_off_topic_label: "Off-topic"
-      reason_off_topic_text: This post is not relevant to the current discussion and should be moved elsewhere.
-      reason_other_label: Other
-      reason_spam_label: Spam
-      reason_spam_text: This post is an advertisement.
+      reason_inappropriate_label: অনুপযুক্ত
+      reason_inappropriate_text: "এই পোস্টটি আপত্তিকর, অপমানজনক, বা লঙ্ঘন আমাদের <a>কমিউনিটি নীতিমালা</a>।"
+      reason_off_topic_label: "বন্ধ করা টপিক"
+      reason_off_topic_text: এই পোস্টটি বর্তমান আলোচনার জন্য প্রাসঙ্গিক নয় এবং অন্য কোথাও স্থানান্তর করা উচিত।
+      reason_other_label: অন্যান্য
+      reason_spam_label: স্প্যাম
+      reason_spam_text: এই পোস্টটি একটি বিজ্ঞাপন।
       submit_button: => flarum-flags.ref.flag_post
       title: => flarum-flags.ref.flag_post
 
     # These translations are used by the Flagged Posts dropdown, a.k.a. "the flag".
     flagged_posts:
-      empty_text: No Flags
+      empty_text: কোন চিহ্ন নেই
       item_text: "{username} in <em>{discussion}</em>"
       title: => flarum-flags.ref.flagged_posts
       tooltip: => flarum-flags.ref.flagged_posts
 
     # These translations are used by the frame displayed around flagged posts.
     post:
-      dismiss_flag_button: Dismiss Flag
-      flagged_by_text: "Flagged by {username}"
-      flagged_by_with_reason_text: "Flagged by {username} as {reason}"
+      dismiss_flag_button: চিনহিত করা বাতিল করুন
+      flagged_by_text: "{username} চিহ্নিত করেছেন"
+      flagged_by_with_reason_text: "{username} চিহ্নিত করেছেন {reason} কারণে"
 
     # These translations are used by the post control buttons.
     post_controls:
-      flag_button: Flag
+      flag_button: চিনহিত
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -57,5 +57,5 @@ flarum-flags:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    flag_post: Flag Post
-    flagged_posts: Flagged Posts
+    flag_post: চিনহিত করা পোস্ট
+    flagged_posts: চিনহিত করা পোস্ট সমূহ
