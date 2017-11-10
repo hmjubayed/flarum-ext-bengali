@@ -224,11 +224,11 @@ core:
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      body_placeholder: একটি পোস্ট লিখুন ...
+      body_placeholder: পোস্ট লিখুন ...
       discard_confirmation: "আপনি আপনার আলোচনা পোস্ট করেন নি। আপনি কি এটি বাতিল করতে চান?"
-      submit_button: পোস্ট আলোচনা
+      submit_button: পোস্ট
       title: => core.ref.start_a_discussion
-      title_placeholder: আলোচনা শিরোনাম
+      title_placeholder: আলোচনার শিরোনাম
 
     # These translations are used by the composer when editing a post.
     composer_edit:
@@ -261,8 +261,8 @@ core:
       empty_text: দেখে মনে হচ্ছে, এখানে কোন আলোচনা নেই।
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: পঠিত হিসেবে চিহ্নিত করুন
-      replied_text: "{username} replied {ago}"
-      started_text: "{username} started {ago}"
+      replied_text: "{username} জবাব দিয়েছে {ago}"
+      started_text: "{username} শুরু করেছে  {ago}"
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
@@ -406,7 +406,7 @@ core:
       bio_placeholder: নিজের সম্পর্কে কিছু লিখুন
       discussions_link: => core.ref.discussions
       in_discussion_text: "In {discussion}"
-      joined_date_text: "Joined {ago}"
+      joined_date_text: "যোগ দিয়েছে {ago}"
       online_text: অনলাইন
       posts_load_more_button: => core.ref.load_more
       posts_link: পোস্টগুলি
